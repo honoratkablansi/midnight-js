@@ -16,5 +16,5 @@ crosses package boundaries as bytes. Declared here so that no package
 downstream restates "which era is now" as a literal of its own.
 
 The type is the single literal, not [LedgerVersion](../type-aliases/LedgerVersion.md), so a value typed
-by it DISCRIMINATES — the same discipline `CurrentPipelineEra` follows in
-`midnight-js-contracts`.
+by it DISCRIMINATES: `midnight-js-contracts` types a current-era result's
+`era` with it, so a union of both eras' results narrows on `era`.

@@ -20,7 +20,7 @@ checked first.
 
 Branch on `cause` for the underlying failure — an unreachable indexer, a
 timeout, an untagged payload, an era violation. It is wrapped rather than
-replaced, so `cause instanceof EraInvariantViolationError`, its seam and its
+replaced, so `cause instanceof EraInvariantViolationError`, its method and its
 registered code all stay reachable.
 
 Reachable only AFTER submission. Every refusal ahead of it is raised with no

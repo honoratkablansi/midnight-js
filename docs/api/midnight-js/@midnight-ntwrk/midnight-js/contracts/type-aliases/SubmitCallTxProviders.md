@@ -10,7 +10,7 @@
 
 The provider set a call entry point accepts.
 
-Two arms, because a call does not always need private state. The arm WITHOUT
+Two variants, because a call does not always need private state. The variant WITHOUT
 `privateStateProvider` is valid only for options that name no
 `privateStateId`; naming one without the provider is refused with
 [IncompleteCallTxPrivateStateConfig](../classes/IncompleteCallTxPrivateStateConfig.md) before any provider is touched.

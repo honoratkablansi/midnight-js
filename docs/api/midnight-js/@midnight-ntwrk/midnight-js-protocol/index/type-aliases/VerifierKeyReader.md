@@ -12,7 +12,7 @@ Reads verifier keys for the entry points a contract declares.
 
 A plain function rather than compact-js's `ZKConfiguration` service, so no
 Effect type reaches this package's callers; zkConfigurationLayer
-adapts it at the seam.
+adapts it where the service is needed.
 
 ## Parameters
 

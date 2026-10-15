@@ -6,7 +6,7 @@
 
 # Type Alias: VersionedFinalizedTransaction
 
-> **VersionedFinalizedTransaction** = [`VersionedTx`](VersionedTx.md)\<[`FinalizedTransaction$1`](https://github.com/midnightntwrk/midnight-ledger)\>
+> **VersionedFinalizedTransaction** = [`VersionedTransaction`](VersionedTransaction.md)\<[`FinalizedTransaction$1`](https://github.com/midnightntwrk/midnight-ledger)\>
 
 A balanced, signed transaction ready for submission: either the live v9
 ledger object, or the serialized bytes of a v8-era transaction.

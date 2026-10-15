@@ -36,8 +36,8 @@ wrapping it here would mislead.
 - [`IndexerSubscriptionDataError`](IndexerSubscriptionDataError.md)
 - [`IndexerProviderConfigError`](IndexerProviderConfigError.md)
 - [`IndexerInvariantError`](IndexerInvariantError.md)
-- [`EraUnsupportedError`](EraUnsupportedError.md)
-- [`EraUnresolvableError`](EraUnresolvableError.md)
+- [`DecoderEraUnsupportedError`](DecoderEraUnsupportedError.md)
+- [`UnknownRecordEraError`](UnknownRecordEraError.md)
 - [`IndexerPayloadTooLargeError`](IndexerPayloadTooLargeError.md)
 
 ## Constructors

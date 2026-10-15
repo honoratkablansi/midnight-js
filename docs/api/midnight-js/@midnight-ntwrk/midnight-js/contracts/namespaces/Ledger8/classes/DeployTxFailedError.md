@@ -120,7 +120,7 @@ process. Subclasses inherit it rather than each declaring their own.
 
 > **get** **record**(): [`VersionedFinalizedTxData`](../../../../types/type-aliases/VersionedFinalizedTxData.md)
 
-See [AnyEraTxFailedError.record](../../../classes/AnyEraTxFailedError.md#record). Either arm on this class.
+See [AnyEraTxFailedError.record](../../../classes/AnyEraTxFailedError.md#record). Either variant on this class.
 
 ##### Returns
 

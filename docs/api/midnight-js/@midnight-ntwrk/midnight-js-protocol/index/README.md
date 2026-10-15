@@ -60,6 +60,7 @@
 - [CurrentLedgerVersion](type-aliases/CurrentLedgerVersion.md)
 - [DownConvertStage](type-aliases/DownConvertStage.md)
 - [Ledger8InstanceAxis](type-aliases/Ledger8InstanceAxis.md)
+- [Ledger8Protocol](type-aliases/Ledger8Protocol.md)
 - [Ledger8SigningKey](type-aliases/Ledger8SigningKey.md)
 - [LedgerParametersOption](type-aliases/LedgerParametersOption.md)
 - [LedgerVersion](type-aliases/LedgerVersion.md)
@@ -67,7 +68,6 @@
 - [MidnightJsErrorCodeFormat](type-aliases/MidnightJsErrorCodeFormat.md)
 - [PartitionedCallTranscript](type-aliases/PartitionedCallTranscript.md)
 - [ProtocolErrorCode](type-aliases/ProtocolErrorCode.md)
-- [ProtocolV8](type-aliases/ProtocolV8.md)
 - [ProtocolVersionUnknownReason](type-aliases/ProtocolVersionUnknownReason.md)
 - [RetainedEraSubpath](type-aliases/RetainedEraSubpath.md)
 - [RetainedLedgerVersion](type-aliases/RetainedLedgerVersion.md)
@@ -92,8 +92,8 @@
 ## Functions
 
 - [findCodedCause](functions/findCodedCause.md)
-- [loadLedger8](functions/loadLedger8.md)
 - [loadLedger8Engine](functions/loadLedger8Engine.md)
+- [loadLedger8Protocol](functions/loadLedger8Protocol.md)
 - [loadLedgerEra](functions/loadLedgerEra.md)
 - [networkHeadVersion](functions/networkHeadVersion.md)
 - [protocolVersionToLedger](functions/protocolVersionToLedger.md)

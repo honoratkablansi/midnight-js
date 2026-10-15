@@ -8,7 +8,7 @@
 
 > **CurrentEraSubmitter** = (`tx`) => `Promise`\<[`TransactionId`](https://github.com/midnightntwrk/midnight-ledger)\>
 
-Submits a CURRENT-era transaction, which crosses this seam as a live ledger
+Submits a CURRENT-era transaction, which is passed to `submitTx` as a live ledger
 object.
 
 ## Parameters

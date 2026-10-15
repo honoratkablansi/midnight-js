@@ -46,5 +46,5 @@ underlying cause.
 
 ## See
 
- - [EraSeam](../../documents/EraSeam.md)
+ - [EraBoundary](../../documents/EraBoundary.md)
  - [SharedTableDiscipline](../../documents/SharedTableDiscipline.md)

@@ -110,7 +110,7 @@ The finalization data of the transaction that failed.
 
 > **get** **record**(): [`VersionedFinalizedTxData`](../../../midnight-js/types/type-aliases/VersionedFinalizedTxData.md)
 
-See [AnyEraTxFailedError.record](AnyEraTxFailedError.md#record). Always the v9 arm on this class.
+See [AnyEraTxFailedError.record](AnyEraTxFailedError.md#record). Always the v9 variant on this class.
 
 ##### Returns
 

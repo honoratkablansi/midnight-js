@@ -28,11 +28,11 @@ never imports the transitional half.
 - [AmbiguousEntryPointError](classes/AmbiguousEntryPointError.md)
 - [CallTxFailedError](classes/CallTxFailedError.md)
 - [DeployNotStoredError](classes/DeployNotStoredError.md)
-- [DeployOnV9Error](classes/DeployOnV9Error.md)
+- [DeployOnLedger9Error](classes/DeployOnLedger9Error.md)
 - [DeployTxFailedError](classes/DeployTxFailedError.md)
 - [DeployUnconfirmedError](classes/DeployUnconfirmedError.md)
+- [ProviderFailedError](classes/ProviderFailedError.md)
 - [RecipientUnmappableError](classes/RecipientUnmappableError.md)
-- [SeamFailedError](classes/SeamFailedError.md)
 - [ShieldedSpendUnsupportedError](classes/ShieldedSpendUnsupportedError.md)
 - [SigningKeyUnusableError](classes/SigningKeyUnusableError.md)
 

@@ -6,7 +6,7 @@
 
 # Type Alias: VersionedFinalizedTxData
 
-> **VersionedFinalizedTxData** = [`FinalizedTxDataV8`](../interfaces/FinalizedTxDataV8.md) \| [`FinalizedTxData`](../interfaces/FinalizedTxData.md)
+> **VersionedFinalizedTxData** = [`Ledger8FinalizedTxData`](../interfaces/Ledger8FinalizedTxData.md) \| [`FinalizedTxData`](../interfaces/FinalizedTxData.md)
 
 A finalized transaction record, discriminated by which ledger runtime
 produced it. Both variants carry identical metadata; only `tx`'s type and the

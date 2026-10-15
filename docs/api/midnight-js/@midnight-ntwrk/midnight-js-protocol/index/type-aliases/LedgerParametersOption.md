@@ -22,4 +22,4 @@ parameters are era-tagged and dated per block, so a second read could answer for
 
 ## See
 
-[EraSeam](../../documents/EraSeam.md)
+[EraBoundary](../../documents/EraBoundary.md)

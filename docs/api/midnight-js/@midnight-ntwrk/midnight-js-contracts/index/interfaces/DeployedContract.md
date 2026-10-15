@@ -100,7 +100,7 @@ the deployer of a contract.
 
 ### era
 
-> `readonly` **era**: `"ledger9"`
+> `readonly` **era**: `"v9"`
 
 The pipeline that produced this result: always the current era here.
 

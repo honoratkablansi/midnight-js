@@ -13,7 +13,7 @@ current era's `FoundContract` carries one: a caller that has just supplied
 the contract and its address should not have to supply them again to call it.
 
 The maintenance interfaces the current era's `FoundContract` also carries are
-NOT here: the retained era has no governance arm at all, so there is nothing
+NOT here: the retained era has no governance API at all, so there is nothing
 for them to reach.
 
 ## Extended by
@@ -74,7 +74,7 @@ unchanged.
 
 ### era
 
-> `readonly` **era**: `"ledger8"`
+> `readonly` **era**: `"v8"`
 
 The pipeline that produced this result: always the retained era here, even
 when the transaction that recorded it is a keep-state transaction tagged

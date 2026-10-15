@@ -8,7 +8,7 @@
 
 > **CurrentEraBalancer** = (`tx`, `ttl?`) => `Promise`\<[`FinalizedTransaction`](https://github.com/midnightntwrk/midnight-ledger)\>
 
-Balances a CURRENT-era transaction, which crosses this seam as a live ledger
+Balances a CURRENT-era transaction, which is passed to `balanceTx` as a live ledger
 object.
 
 ## Parameters

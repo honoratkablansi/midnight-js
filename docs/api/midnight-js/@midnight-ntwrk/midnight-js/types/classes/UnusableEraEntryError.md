@@ -27,13 +27,13 @@ Catch it via its stable `code`, using `hasErrorCode` from
 
 ### Constructor
 
-> **new UnusableEraEntryError**(`seam`, `era`, `expected`, `received`): `UnusableEraEntryError`
+> **new UnusableEraEntryError**(`method`, `era`, `expected`, `received`): `UnusableEraEntryError`
 
 #### Parameters
 
-##### seam
+##### method
 
-[`ProviderSeam`](../type-aliases/ProviderSeam.md)
+[`TransactionMethod`](../type-aliases/TransactionMethod.md)
 
 The provider method the rejected entry would have served.
 
@@ -99,12 +99,12 @@ What was passed instead, for the message only: for example
 
 ***
 
-### received
+### method
 
-> `readonly` **received**: `string`
+> `readonly` **method**: [`TransactionMethod`](../type-aliases/TransactionMethod.md)
 
 ***
 
-### seam
+### received
 
-> `readonly` **seam**: [`ProviderSeam`](../type-aliases/ProviderSeam.md)
+> `readonly` **received**: `string`

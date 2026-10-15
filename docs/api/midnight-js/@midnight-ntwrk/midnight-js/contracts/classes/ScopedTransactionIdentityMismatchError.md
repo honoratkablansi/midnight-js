@@ -78,7 +78,7 @@ This prevents silent state mismatches when batching calls to different contracts
 
 ### code
 
-> `readonly` **code**: `"MIDNIGHT_JS_C_SCOPED_TX_IDENTITY_MISMATCH"`
+> `readonly` **code**: `"MIDNIGHT_JS_C_SCOPED_TRANSACTION_IDENTITY_MISMATCH"`
 
 #### Overrides
 

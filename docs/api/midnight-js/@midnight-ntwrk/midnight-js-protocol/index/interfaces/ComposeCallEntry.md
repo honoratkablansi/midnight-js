@@ -20,7 +20,7 @@ callee — omits it and gets fresh randomness.
 
 ## See
 
-[EraSeam](../../documents/EraSeam.md)
+[EraBoundary](../../documents/EraBoundary.md)
 
 ## Properties
 

@@ -6,7 +6,7 @@
 
 # Interface: EraDeclaringProvider
 
-What every provider on a transaction seam states about the eras it serves.
+What every provider of a transaction method states about the eras it serves.
 
 ## Properties
 

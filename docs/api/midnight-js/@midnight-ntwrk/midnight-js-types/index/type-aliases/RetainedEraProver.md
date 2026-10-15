@@ -8,7 +8,7 @@
 
 > **RetainedEraProver** = (`txBytes`, `config?`) => `Promise`\<`Uint8Array`\>
 
-Proves a RETAINED-era transaction, which crosses this seam as serialized
+Proves a RETAINED-era transaction, which is passed to `proveTx` as serialized
 bytes in both directions: the runtime that owns such a transaction is loaded
 lazily and its instances are not interchangeable with the current era's.
 

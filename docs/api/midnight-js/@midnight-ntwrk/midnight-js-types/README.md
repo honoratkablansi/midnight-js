@@ -8,8 +8,8 @@
 
 ## Documents
 
+- [ProviderEraDeclarations](documents/ProviderEraDeclarations.md)
 - [ReadingTheHeadEra](documents/ReadingTheHeadEra.md)
-- [SeamEraDeclarations](documents/SeamEraDeclarations.md)
 - [VersionTaggedPayloads](documents/VersionTaggedPayloads.md)
 
 ## Modules

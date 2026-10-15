@@ -48,7 +48,7 @@ circuit against an empty balance — see RetainedEraExecution.
 
 ### envelopeVersion
 
-> `readonly` **envelopeVersion**: `"v8"` \| `"v9"`
+> `readonly` **envelopeVersion**: `"v9"` \| `"v8"`
 
 The ledger era that wrote these bytes, read from the envelope they carry.
 

@@ -39,12 +39,12 @@ at a different address and would not overwrite the first.
 
 ### head
 
-> `readonly` **head**: `"v8"` \| `"v9"`
+> `readonly` **head**: `"v9"` \| `"v8"`
 
 The era the network head was on when this operation started.
 
-One field, two uses, and they are the same fact: it decides which arm of
-the provider seams the transaction crossed on, and it is the `startEra` a
+One field, two uses, and they are the same fact: it decides which payload
+variant the transaction carried across the provider methods, and it is the `startEra` a
 fork diagnosis compares a fresh reading against.
 
 ***

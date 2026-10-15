@@ -8,7 +8,7 @@
 
 > **RetainedEraBalancer** = (`txBytes`, `ttl?`) => `Promise`\<`Uint8Array`\>
 
-Balances a RETAINED-era transaction, which crosses this seam as serialized
+Balances a RETAINED-era transaction, which is passed to `balanceTx` as serialized
 bytes in both directions.
 
 ## Parameters

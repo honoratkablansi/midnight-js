@@ -425,7 +425,7 @@ envelope from an era this client's tag table does not list, and a
 is the one asymmetry with [contractStateObservable](#contractstateobservable), which tolerates
 such an integer and decodes on the envelope alone; here `version` is a
 required field with nothing to fall back to, so the read is refused as
-[IndexerDataError](IndexerDataError.md) with `kind: 'unresolvable-era'` rather than
+[IndexerDataError](IndexerDataError.md) with `kind: 'unknown-record-era'` rather than
 guessed. Both arrive as an `IndexerError`, like every other failure from
 this package.
 

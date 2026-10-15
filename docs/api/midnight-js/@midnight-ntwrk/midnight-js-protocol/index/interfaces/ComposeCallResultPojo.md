@@ -16,7 +16,7 @@ the two answers stopped agreeing.
 
 ## See
 
-[EraSeam](../../documents/EraSeam.md)
+[EraBoundary](../../documents/EraBoundary.md)
 
 ## Properties
 

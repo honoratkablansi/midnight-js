@@ -48,4 +48,4 @@ Ledger8InstanceMismatchError Never raised here; passed through
 ## See
 
  - [ModuleGraphAndLazyLoading](../../documents/ModuleGraphAndLazyLoading.md)
- - [EraSeam](../../documents/EraSeam.md)
+ - [EraBoundary](../../documents/EraBoundary.md)

@@ -16,7 +16,7 @@ was moving can still have been recorded.
 
 The provider's own rejection travels on `cause`, already sanitized of
 anything that could carry transaction or witness material — see
-[Ledger8SeamFailedError](../namespaces/Ledger8/classes/SeamFailedError.md), which is the form it arrives in.
+[Ledger8ProviderFailedError](../namespaces/Ledger8/classes/ProviderFailedError.md), which is the form it arrives in.
 
 ## See
 

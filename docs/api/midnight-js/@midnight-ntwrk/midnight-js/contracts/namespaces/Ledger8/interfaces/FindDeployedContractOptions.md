@@ -90,5 +90,5 @@ sample a fresh key when none is stored, where the current era's
 
 #### See
 
-[KeepStatePipeline](../../../../documents/KeepStatePipeline.md) for why this arm samples nothing, and why a
+[KeepStatePipeline](../../../../documents/KeepStatePipeline.md) for why this path samples nothing, and why a
 supplied key replaces a stored one rather than falling back to it.

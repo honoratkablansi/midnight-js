@@ -26,4 +26,4 @@ WASM handle.
 shape.
  - [ComposeRefusalOrder](../../documents/ComposeRefusalOrder.md) for why an already-partitioned pair is
 passed through rather than re-derived.
- - [EraSeam](../../documents/EraSeam.md)
+ - [EraBoundary](../../documents/EraBoundary.md)

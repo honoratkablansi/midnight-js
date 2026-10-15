@@ -8,7 +8,7 @@
 
 > **CurrentEraProver** = (`tx`, `config?`) => `Promise`\<[`UnboundTransaction`](UnboundTransaction.md)\>
 
-Proves a CURRENT-era transaction, which crosses this seam as a live ledger
+Proves a CURRENT-era transaction, which is passed to `proveTx` as a live ledger
 object because both sides share the current era's WASM instance.
 
 ## Parameters

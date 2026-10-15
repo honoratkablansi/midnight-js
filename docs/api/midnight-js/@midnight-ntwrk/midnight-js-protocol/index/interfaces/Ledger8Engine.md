@@ -18,7 +18,7 @@ caller.
 
 ## See
 
-[EraSeam](../../documents/EraSeam.md)
+[EraBoundary](../../documents/EraBoundary.md)
 
 ## Methods
 

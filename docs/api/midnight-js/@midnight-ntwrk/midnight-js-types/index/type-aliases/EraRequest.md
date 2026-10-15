@@ -18,10 +18,10 @@ registered for that era.
 
 `T`
 
-The current era's ledger transaction type at this seam.
+The current era's ledger transaction type.
 
 ### H
 
 `H`
 
-The retained-era handler signature at this seam.
+The retained-era handler signature.

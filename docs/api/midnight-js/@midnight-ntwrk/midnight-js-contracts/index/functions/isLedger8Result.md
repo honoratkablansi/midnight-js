@@ -9,9 +9,9 @@
 > **isLedger8Result**\<`T`\>(`result`): `result is NarrowedToRetained<T>`
 
 Whether a result came from the RETAINED pipeline, narrowing it to that era's
-arm.
+variant.
 
-Reads `era`, which every result carries and which each arm declares as its
+Reads `era`, which every result carries and which each variant declares as its
 own literal -- so this narrows a union of any two result shapes that carry
 the tag, not only the published unions above.
 

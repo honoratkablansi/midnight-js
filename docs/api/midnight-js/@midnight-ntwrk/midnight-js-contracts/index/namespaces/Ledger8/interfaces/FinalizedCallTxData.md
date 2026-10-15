@@ -44,7 +44,7 @@ See [Ledger8UnsubmittedCallTxData.calls](UnsubmittedCallTxData.md#calls).
 
 ### era
 
-> `readonly` **era**: `"ledger8"`
+> `readonly` **era**: `"v8"`
 
 The pipeline that produced this result: always the retained era here, even
 when the transaction that recorded it is a keep-state transaction tagged

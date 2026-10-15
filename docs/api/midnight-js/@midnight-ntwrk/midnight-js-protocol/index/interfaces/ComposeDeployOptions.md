@@ -19,7 +19,7 @@ ALREADY carries its keys.
 ## See
 
  - [VerifierKeys](../../documents/VerifierKeys.md)
- - [EraSeam](../../documents/EraSeam.md)
+ - [EraBoundary](../../documents/EraBoundary.md)
 
 ## Properties
 

@@ -20,7 +20,7 @@ which network, how long the transaction lives.
 
  - [ZswapOfferFactory](../type-aliases/ZswapOfferFactory.md)
  - [ComposeRefusalOrder](../../documents/ComposeRefusalOrder.md) for when the envelope options are checked.
- - [EraSeam](../../documents/EraSeam.md)
+ - [EraBoundary](../../documents/EraBoundary.md)
 
 ## Properties
 

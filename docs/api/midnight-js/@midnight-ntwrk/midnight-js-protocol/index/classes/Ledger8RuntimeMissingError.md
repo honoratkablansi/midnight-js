@@ -7,7 +7,7 @@
 # Class: Ledger8RuntimeMissingError
 
 Thrown when a lazily-loaded subpath export carrying the retained pre-fork
-runtime could not be acquired at all. Raised by `loadLedger8`
+runtime could not be acquired at all. Raised by `loadLedger8Protocol`
 (`lib/v8/load.ts`) and `loadLedger8Engine` (`lib/v8/load-engine.ts`), and
 surfaced through `createLedger8Engine` and `loadLedgerEra('v8')`.
 
@@ -31,7 +31,7 @@ The underlying module-resolution or initialisation failure,
 ## See
 
  - [ModuleGraphAndLazyLoading](../../documents/ModuleGraphAndLazyLoading.md)
- - [EraSeam](../../documents/EraSeam.md)
+ - [EraBoundary](../../documents/EraBoundary.md)
 
 ## Extends
 

@@ -278,18 +278,6 @@ Re-exports [CrossContractConfig](../../contracts/interfaces/CrossContractConfig.
 
 ***
 
-### CURRENT\_PIPELINE\_ERA
-
-Re-exports [CURRENT_PIPELINE_ERA](../../contracts/variables/CURRENT_PIPELINE_ERA.md)
-
-***
-
-### CurrentPipelineEra
-
-Re-exports [CurrentPipelineEra](../../contracts/type-aliases/CurrentPipelineEra.md)
-
-***
-
 ### deployContract
 
 Re-exports [deployContract](../../contracts/functions/deployContract.md)
@@ -386,12 +374,6 @@ Re-exports [EraInvariantViolationError](../../contracts/classes/EraInvariantViol
 
 ***
 
-### EraSeam
-
-Re-exports [EraSeam](../../contracts/type-aliases/EraSeam.md)
-
-***
-
 ### FinalizedCallTxData
 
 Re-exports [FinalizedCallTxData](../../contracts/interfaces/FinalizedCallTxData.md)
@@ -467,12 +449,6 @@ Re-exports [FoundDeployTxData](../../contracts/interfaces/FoundDeployTxData.md)
 ### FoundDeployTxPublicData
 
 Re-exports [FoundDeployTxPublicData](../../contracts/type-aliases/FoundDeployTxPublicData.md)
-
-***
-
-### FoundDeployTxPublicDataV8
-
-Re-exports [FoundDeployTxPublicDataV8](../../contracts/interfaces/FoundDeployTxPublicDataV8.md)
 
 ***
 
@@ -560,6 +536,12 @@ Re-exports [Ledger8](../../contracts/namespaces/Ledger8/README.md)
 
 ***
 
+### Ledger8FoundDeployTxPublicData
+
+Re-exports [Ledger8FoundDeployTxPublicData](../../contracts/interfaces/Ledger8FoundDeployTxPublicData.md)
+
+***
+
 ### LedgerParametersUnservedError
 
 Re-exports [LedgerParametersUnservedError](../../contracts/classes/LedgerParametersUnservedError.md)
@@ -569,12 +551,6 @@ Re-exports [LedgerParametersUnservedError](../../contracts/classes/LedgerParamet
 ### MixedEraScopeError
 
 Re-exports [MixedEraScopeError](../../contracts/classes/MixedEraScopeError.md)
-
-***
-
-### PipelineEra
-
-Re-exports [PipelineEra](../../contracts/type-aliases/PipelineEra.md)
 
 ***
 
@@ -602,21 +578,15 @@ Re-exports [ReplaceMaintenanceAuthorityTxFailedError](../../contracts/classes/Re
 
 ***
 
-### RETAINED\_PIPELINE\_ERA
-
-Re-exports [RETAINED_PIPELINE_ERA](../../contracts/variables/RETAINED_PIPELINE_ERA.md)
-
-***
-
 ### RetainedArtifactOnCurrentEraStateError
 
 Re-exports [RetainedArtifactOnCurrentEraStateError](../../contracts/classes/RetainedArtifactOnCurrentEraStateError.md)
 
 ***
 
-### RetainedPipelineEra
+### ScopedTransactionEraUnsupportedError
 
-Re-exports [RetainedPipelineEra](../../contracts/type-aliases/RetainedPipelineEra.md)
+Re-exports [ScopedTransactionEraUnsupportedError](../../contracts/classes/ScopedTransactionEraUnsupportedError.md)
 
 ***
 
@@ -629,12 +599,6 @@ Re-exports [ScopedTransactionIdentityMismatchError](../../contracts/classes/Scop
 ### ScopedTransactionOptions
 
 Re-exports [ScopedTransactionOptions](../../contracts/interfaces/ScopedTransactionOptions.md)
-
-***
-
-### ScopedTxEraUnsupportedError
-
-Re-exports [ScopedTxEraUnsupportedError](../../contracts/classes/ScopedTxEraUnsupportedError.md)
 
 ***
 
@@ -752,6 +716,12 @@ Re-exports [TxFailedError](../../contracts/classes/TxFailedError.md)
 
 ***
 
+### UnknownResultEraError
+
+Re-exports [UnknownResultEraError](../../contracts/classes/UnknownResultEraError.md)
+
+***
+
 ### UnprovenCallTxProvidersBase
 
 Re-exports [UnprovenCallTxProvidersBase](../../contracts/type-aliases/UnprovenCallTxProvidersBase.md)
@@ -773,12 +743,6 @@ Re-exports [UnprovenDeployTxOptions](../../contracts/type-aliases/UnprovenDeploy
 ### UnprovenDeployTxProviders
 
 Re-exports [UnprovenDeployTxProviders](../../contracts/type-aliases/UnprovenDeployTxProviders.md)
-
-***
-
-### UnrecognisedResultEraError
-
-Re-exports [UnrecognisedResultEraError](../../contracts/classes/UnrecognisedResultEraError.md)
 
 ***
 

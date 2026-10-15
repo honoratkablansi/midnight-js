@@ -24,7 +24,7 @@ Configuration.
 ## Throws
 
 DeployTxFailedError If the transaction is submitted successfully but produces an error
-                            when executed by the node. Current-era arms only; the retained arm
+                            when executed by the node. Current-era overloads only; the retained-era one
                             raises `Ledger8DeployTxFailedError`, which carries a version-tagged
                             record and the signing key, instead.
 
@@ -40,7 +40,7 @@ EraArtifactMismatchError If `options.compiledContract` belongs to neither Compac
 
 ## Throws
 
-Ledger8DeployOnV9Error If a retained-era artifact is deployed against a post-fork head.
+Ledger8DeployOnLedger9Error If a retained-era artifact is deployed against a post-fork head.
                                Raised before the constructor runs and before any verifier key is
                                fetched.
 
@@ -78,11 +78,11 @@ InvalidArgumentError If `privateStateId` is present with an undefined value, whi
 
 > **deployContract**\<`C`\>(`providers`, `options`): `Promise`\<[`DeployedContract`](../namespaces/Ledger8/interfaces/DeployedContract.md)\<`C`\>\>
 
-The retained-era arm. Accepts a contract produced by the PREVIOUS Compact toolchain, passed as
+The retained-era overload. Accepts a contract produced by the PREVIOUS Compact toolchain, passed as
 the raw contract instance rather than inside a `CompiledContract` container.
 
 Reachable only on a PRE-FORK head: the retained era has no post-fork deployment, so a retained
-artifact against a post-fork head is refused with `Ledger8DeployOnV9Error`. Recompile with the
+artifact against a post-fork head is refused with `Ledger8DeployOnLedger9Error`. Recompile with the
 current toolchain and deploy that artifact instead; the retained artifact keeps working for calls
 against contracts deployed before the fork.
 
