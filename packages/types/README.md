@@ -122,13 +122,19 @@ implementation rather than tagging by hand:
 ```typescript
 import { createMidnightProvider, createWalletProvider } from '@midnight-ntwrk/midnight-js-types';
 
-const walletProvider = createWalletProvider({
-  balanceTx: (tx, ttl) => wallet.balanceAndProveTransaction(tx, ttl),
-  getCoinPublicKey: () => wallet.coinPublicKey,
-  getEncryptionPublicKey: () => wallet.encryptionPublicKey
-});
-const midnightProvider = createMidnightProvider((tx) => wallet.submitTransaction(tx));
+// `myWallet` implements `Ledger9WalletProvider` and submits finalized
+// transactions. testkit-js's `MidnightWalletProvider` integrates
+// `@midnightntwrk/wallet-sdk` and is already a `WalletProvider` and
+// `MidnightProvider`: use it as both, without wrapping it.
+const walletProvider = createWalletProvider(myWallet);
+const midnightProvider = createMidnightProvider((tx) => myWallet.submitTx(tx));
 ```
+
+`Ledger9WalletProvider` is `balanceTx`, `getCoinPublicKey` and
+`getEncryptionPublicKey`. For a wallet built on `@midnightntwrk/wallet-sdk`, see
+[`MidnightWalletProvider`](../../testkit-js/testkit-js/src/wallet/midnight-wallet-provider.ts).
+It implements the version-tagged `WalletProvider` and `MidnightProvider` itself,
+so pass it to `createMidnightProviders` directly rather than wrapping it.
 
 ### Declaring the eras a provider serves
 

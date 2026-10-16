@@ -167,11 +167,12 @@ export interface Ledger9WalletProvider {
  *
  * @example
  * ```typescript
- * const walletProvider = createWalletProvider({
- *   balanceTx: (tx, ttl) => wallet.balanceAndProveTransaction(tx, ttl),
- *   getCoinPublicKey: () => wallet.coinPublicKey,
- *   getEncryptionPublicKey: () => wallet.encryptionPublicKey
- * });
+ * // `myWallet` implements `Ledger9WalletProvider` and submits finalized
+ * // transactions. testkit-js's `MidnightWalletProvider` integrates
+ * // `@midnightntwrk/wallet-sdk` and is already a `WalletProvider` and
+ * // `MidnightProvider`: use it as both, without wrapping it.
+ * const walletProvider = createWalletProvider(myWallet);
+ * const midnightProvider = createMidnightProvider((tx) => myWallet.submitTx(tx));
  * ```
  */
 export const createWalletProvider = (impl: Ledger9WalletProvider): WalletProvider =>

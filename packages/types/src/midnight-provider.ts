@@ -122,7 +122,12 @@ export const createMidnightProviderFromHandlers = (handlers: MidnightProviderHan
  *
  * @example
  * ```typescript
- * const midnightProvider = createMidnightProvider((tx) => wallet.submitTransaction(tx));
+ * // `myWallet` implements `Ledger9WalletProvider` and submits finalized
+ * // transactions. testkit-js's `MidnightWalletProvider` integrates
+ * // `@midnightntwrk/wallet-sdk` and is already a `WalletProvider` and
+ * // `MidnightProvider`: use it as both, without wrapping it.
+ * const walletProvider = createWalletProvider(myWallet);
+ * const midnightProvider = createMidnightProvider((tx) => myWallet.submitTx(tx));
  * ```
  */
 export const createMidnightProvider = (
